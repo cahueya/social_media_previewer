@@ -1,0 +1,8 @@
+{
+  "name": "concretecms-social-media-previewer",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "lint:js": "node --check js/social-media-previewer.js"
+  }
+}

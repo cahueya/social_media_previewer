@@ -1,0 +1,331 @@
+/*
+ * The surrounding interface uses Concrete CMS' scoped Bootstrap UI via
+ * .ccm-ui. Custom rules are limited to preview rendering and behavior that
+ * Bootstrap does not provide (the swipe area and preview dimensions).
+ */
+
+.smp-body,
+.smp-stage {
+    min-height: 510px;
+}
+
+.smp-stage {
+    touch-action: pan-y;
+}
+
+.smp-card {
+    background: #fff;
+    overflow: hidden;
+    width: min(100%, 520px);
+}
+
+.smp-image img {
+    object-fit: cover;
+}
+
+.smp-card-domain {
+    color: #536471;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.smp-card-title,
+.smp-card-description {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.smp-x {
+    border: 1px solid #cfd9de;
+    border-radius: 16px;
+}
+
+.smp-x .smp-image {
+    aspect-ratio: 2 / 1;
+    border-bottom: 1px solid #cfd9de;
+}
+
+.smp-x.is-summary {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+}
+
+.smp-x.is-summary .smp-image {
+    aspect-ratio: 1 / 1;
+    border-bottom: 0;
+    border-right: 1px solid #cfd9de;
+}
+
+.smp-x-copy {
+    padding: 11px 13px 12px;
+}
+
+.smp-x .smp-card-title {
+    font-size: 15px;
+    line-height: 19px;
+    margin: 2px 0;
+    -webkit-line-clamp: 2;
+}
+
+.smp-x .smp-card-description {
+    color: #536471;
+    font-size: 14px;
+    line-height: 18px;
+    -webkit-line-clamp: 2;
+}
+
+.smp-facebook {
+    border: 1px solid #dadde1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .08);
+}
+
+.smp-facebook .smp-image {
+    aspect-ratio: 1.91 / 1;
+}
+
+.smp-facebook-copy {
+    background: #f0f2f5;
+    border-top: 1px solid #dadde1;
+    padding: 11px 14px 13px;
+}
+
+.smp-facebook .smp-card-domain {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.smp-facebook .smp-card-title {
+    color: #1c1e21;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 4px 0;
+    -webkit-line-clamp: 2;
+}
+
+.smp-facebook .smp-card-description {
+    color: #606770;
+    font-size: 14px;
+    line-height: 18px;
+    -webkit-line-clamp: 1;
+}
+
+.smp-telegram-wrap {
+    background: #e8f3f9;
+    max-width: 520px;
+}
+
+.smp-telegram {
+    background: transparent;
+    border-left: 3px solid #37aee2;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.smp-telegram .smp-card-domain {
+    color: #2589b8;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.smp-telegram .smp-card-title {
+    font-size: 14px;
+    font-weight: 650;
+    line-height: 18px;
+    margin: 0 0 2px;
+    -webkit-line-clamp: 2;
+}
+
+.smp-telegram .smp-card-description {
+    color: #4d5a63;
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 8px;
+    -webkit-line-clamp: 3;
+}
+
+.smp-telegram .smp-image {
+    aspect-ratio: 1.91 / 1;
+    border-radius: 7px;
+}
+
+.smp-nostr-wrap {
+    background: #15121a;
+    max-width: 540px;
+}
+
+.smp-nostr {
+    background: #211c29;
+    border: 1px solid #393043;
+    border-radius: 10px;
+    color: #f2edf6;
+    width: 100%;
+}
+
+.smp-nostr .smp-image {
+    aspect-ratio: 1.91 / 1;
+}
+
+.smp-nostr-copy {
+    padding: 12px 14px 14px;
+}
+
+.smp-nostr .smp-card-domain {
+    color: #b8aebf;
+    font-size: 12px;
+}
+
+.smp-nostr .smp-card-title {
+    font-size: 16px;
+    font-weight: 650;
+    line-height: 20px;
+    margin: 4px 0;
+    -webkit-line-clamp: 2;
+}
+
+.smp-nostr .smp-card-description {
+    color: #c7bdce;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-line-clamp: 2;
+}
+
+.smp-linkedin {
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .08);
+}
+
+.smp-linkedin .smp-image {
+    aspect-ratio: 1.91 / 1;
+}
+
+.smp-linkedin-copy {
+    border-top: 1px solid #e2e2e2;
+    padding: 12px 16px 14px;
+}
+
+.smp-linkedin .smp-card-title {
+    color: #191919;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-bottom: 4px;
+    -webkit-line-clamp: 2;
+}
+
+.smp-linkedin .smp-card-description {
+    color: #444;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 6px;
+    -webkit-line-clamp: 2;
+}
+
+.smp-linkedin .smp-card-domain {
+    color: #666;
+    font-size: 12px;
+}
+
+.smp-bluesky {
+    border: 1px solid #dce2e8;
+    border-radius: 12px;
+}
+
+.smp-bluesky .smp-image {
+    aspect-ratio: 1.91 / 1;
+    border-bottom: 1px solid #dce2e8;
+}
+
+.smp-bluesky-copy {
+    padding: 12px 14px 14px;
+}
+
+.smp-bluesky .smp-card-title {
+    color: #0b0f14;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 3px;
+    -webkit-line-clamp: 2;
+}
+
+.smp-bluesky .smp-card-description {
+    color: #42576a;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 6px;
+    -webkit-line-clamp: 2;
+}
+
+.smp-bluesky .smp-card-domain {
+    color: #536471;
+    font-size: 13px;
+}
+
+.smp-mastodon {
+    border: 1px solid #c9d0d8;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 190px minmax(0, 1fr);
+}
+
+.smp-mastodon .smp-image {
+    aspect-ratio: 1 / 1;
+    border-right: 1px solid #c9d0d8;
+}
+
+.smp-mastodon-copy {
+    align-self: center;
+    min-width: 0;
+    padding: 14px 16px;
+}
+
+.smp-mastodon .smp-card-domain {
+    color: #536471;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.smp-mastodon .smp-card-title {
+    color: #282c37;
+    font-size: 16px;
+    font-weight: 650;
+    line-height: 21px;
+    margin-bottom: 5px;
+    -webkit-line-clamp: 2;
+}
+
+.smp-mastodon .smp-card-description {
+    color: #606984;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-line-clamp: 3;
+}
+
+@media (max-width: 991.98px) {
+    .smp-body,
+    .smp-stage {
+        min-height: 390px;
+    }
+
+    .smp-inspector {
+        border-left: 0 !important;
+        border-top: var(--bs-border-width, 1px) var(--bs-border-style, solid) var(--bs-border-color, #dee2e6);
+    }
+
+    .smp-mastodon {
+        display: block;
+    }
+
+    .smp-mastodon .smp-image {
+        aspect-ratio: 1.91 / 1;
+        border-bottom: 1px solid #c9d0d8;
+        border-right: 0;
+    }
+}

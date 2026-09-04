@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Media Previewer 1.4.0\n"
+"PO-Revision-Date: 2026-09-04 00:00+0000\n"
+"Last-Translator: Social Media Previewer contributors\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Social Media Previewer"
+msgstr "Social-Media-Vorschau"
+
+msgid "Previews the current page for X, Telegram, Facebook, Nostr, LinkedIn, Bluesky and Mastodon before publishing."
+msgstr "Zeigt vor der Veröffentlichung eine Vorschau der aktuellen Seite für X, Telegram, Facebook, Nostr, LinkedIn, Bluesky und Mastodon."
+
+msgid "Social Media Preview"
+msgstr "Social-Media-Vorschau"
+
+msgid "Preview this page for social media"
+msgstr "Diese Seite für soziale Medien in der Vorschau anzeigen"
+
+msgid "Social media preview"
+msgstr "Social-Media-Vorschau"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Previous platform"
+msgstr "Vorherige Plattform"
+
+msgid "Next platform"
+msgstr "Nächste Plattform"
+
+msgid "Platforms"
+msgstr "Plattformen"
+
+msgid "Check required"
+msgstr "Prüfung erforderlich"
+
+msgid "No problems found"
+msgstr "Keine Probleme gefunden"
+
+msgid "check required"
+msgstr "Prüfung erforderlich"
+
+msgid "no problems"
+msgstr "keine Probleme"
+
+msgid "of"
+msgstr "von"
+
+msgid "Check"
+msgstr "Prüfung"
+
+msgid "Data used"
+msgstr "Verwendete Daten"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "Image alt text"
+msgstr "Bild-Alternativtext"
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Missing"
+msgstr "Fehlt"
+
+msgid "missing"
+msgstr "fehlt"
+
+msgid "current URL"
+msgstr "aktuelle URL"
+
+msgid "first H1"
+msgstr "erste H1"
+
+msgid "Concrete page name"
+msgstr "Concrete-Seitenname"
+
+msgid "Concrete page description"
+msgstr "Concrete-Seitenbeschreibung"
+
+msgid "first paragraph"
+msgstr "erster Absatz"
+
+msgid "first content image"
+msgstr "erstes Inhaltsbild"
+
+msgid "domain"
+msgstr "Domain"
+
+msgid "default value"
+msgstr "Standardwert"
+
+msgid "image alt text"
+msgstr "Bild-Alternativtext"
+
+msgid "preview default"
+msgstr "Vorschau-Standardwert"
+
+msgid "The image could not be loaded"
+msgstr "Das Bild konnte nicht geladen werden"
+
+msgid "No preview image"
+msgstr "Kein Vorschaubild"
+
+msgid "Title is missing."
+msgstr "Titel fehlt."
+
+msgid "Description is missing; the card will appear incomplete."
+msgstr "Beschreibung fehlt; die Karte wirkt unvollständig."
+
+msgid "Preview image is missing."
+msgstr "Vorschaubild fehlt."
+
+msgid "Canonical URL is missing."
+msgstr "Kanonische URL fehlt."
+
+msgid "The image URL is not an absolute HTTP(S) URL."
+msgstr "Die Bild-URL ist keine absolute HTTP(S)-URL."
+
+msgid "twitter:card is missing; X may fall back to Open Graph, but the result is less predictable."
+msgstr "twitter:card fehlt; X kann auf Open Graph zurückfallen, das Ergebnis ist aber weniger vorhersehbar."
+
+msgid "twitter:card contains an unknown value."
+msgstr "twitter:card enthält einen unbekannten Wert."
+
+msgid "App and player cards are approximated as link cards; embedded app or player features are not executed locally."
+msgstr "App- und Player-Cards werden als Linkkarten angenähert; eingebettete App- oder Player-Funktionen werden lokal nicht ausgeführt."
+
+msgid "An aspect ratio close to 2:1 is recommended for summary_large_image."
+msgstr "Für summary_large_image ist ein Seitenverhältnis nahe 2:1 empfehlenswert."
+
+msgid "The X image is smaller than 300 × 157 px."
+msgstr "Das X-Bild ist kleiner als 300 × 157 px."
+
+msgid "The X thumbnail is smaller than 144 × 144 px."
+msgstr "Das X-Vorschaubild ist kleiner als 144 × 144 px."
+
+msgid "og:title is missing; the current preview only uses a local fallback."
+msgstr "og:title fehlt; die aktuelle Vorschau verwendet nur lokal einen Ersatzwert."
+
+msgid "og:image is missing; the current preview only uses a local fallback."
+msgstr "og:image fehlt; die aktuelle Vorschau verwendet nur lokal einen Ersatzwert."
+
+msgid "og:url is missing; the current preview only uses the canonical or page URL locally."
+msgstr "og:url fehlt; die aktuelle Vorschau verwendet lokal nur die kanonische URL oder Seiten-URL."
+
+msgid "og:type is missing; the local preview assumes “website”."
+msgstr "og:type fehlt; die lokale Vorschau nimmt „website“ an."
+
+msgid "An aspect ratio of about 1.91:1 (for example 1200 × 630 px) is recommended for large Facebook cards."
+msgstr "Für große Facebook-Karten ist ein Seitenverhältnis von etwa 1,91:1 (zum Beispiel 1200 × 630 px) empfehlenswert."
+
+msgid "Facebook requires an image of at least 200 × 200 px."
+msgstr "Facebook benötigt ein Bild mit mindestens 200 × 200 px."
+
+msgid "Telegram generates link previews server-side; complete Open Graph data makes the result more predictable."
+msgstr "Telegram erzeugt Link-Vorschauen serverseitig; vollständige Open-Graph-Daten machen das Ergebnis besser vorhersehbar."
+
+msgid "Nostr does not define a single link-card layout; rendering and Open Graph processing vary by client."
+msgstr "Nostr definiert kein einheitliches Linkkarten-Layout; Darstellung und Open-Graph-Auswertung unterscheiden sich je Client."
+
+msgid "LinkedIn expects og:title; the current preview only uses a local fallback."
+msgstr "LinkedIn erwartet og:title; die aktuelle Vorschau verwendet nur lokal einen Ersatzwert."
+
+msgid "LinkedIn expects og:image; the current preview only uses a local fallback."
+msgstr "LinkedIn erwartet og:image; die aktuelle Vorschau verwendet nur lokal einen Ersatzwert."
+
+msgid "LinkedIn expects og:description; the current preview only uses a local fallback."
+msgstr "LinkedIn erwartet og:description; die aktuelle Vorschau verwendet nur lokal einen Ersatzwert."
+
+msgid "LinkedIn expects og:url; the current preview only uses the canonical or page URL locally."
+msgstr "LinkedIn erwartet og:url; die aktuelle Vorschau verwendet lokal nur die kanonische URL oder Seiten-URL."
+
+msgid "LinkedIn recommends an aspect ratio of 1.91:1 for large cards."
+msgstr "LinkedIn empfiehlt für große Karten ein Seitenverhältnis von 1,91:1."
+
+msgid "The LinkedIn image is smaller than the recommended minimum size of 1200 × 627 px."
+msgstr "Das LinkedIn-Bild ist kleiner als die empfohlene Mindestgröße von 1200 × 627 px."
+
+msgid "Incomplete Open Graph data may prevent a Bluesky app from creating a complete card automatically."
+msgstr "Unvollständige Open-Graph-Daten können verhindern, dass eine Bluesky-App automatisch eine vollständige Karte erzeugt."
+
+msgid "Bluesky stores the title, description, URL, and optional thumbnail as an external embed in the post; the posting app therefore determines the final card data."
+msgstr "Bluesky speichert Titel, Beschreibung, URL und ein optionales Vorschaubild als externes Embed im Beitrag; die veröffentlichende App bestimmt daher die endgültigen Kartendaten."
+
+msgid "Mastodon generates preview cards from Open Graph; incomplete og: data may result in a reduced card."
+msgstr "Mastodon erzeugt Vorschaukarten aus Open Graph; unvollständige og:-Daten können zu einer reduzierten Karte führen."
+
+msgid "Layout, text truncation, and retrieval timing may vary by Mastodon client and instance."
+msgstr "Layout, Textkürzung und Abrufzeitpunkt können je Mastodon-Client und Instanz abweichen."
+
+msgid "Alternative text for the preview image is missing."
+msgstr "Der Alternativtext für das Vorschaubild fehlt."
+
+msgid "All data relevant to this local check is present."
+msgstr "Alle für diese lokale Prüfung relevanten Angaben sind vorhanden."
+
+msgid "The Nostr view is a representative client approximation, not a layout defined by the protocol."
+msgstr "Die Nostr-Ansicht ist eine repräsentative Client-Näherung und kein durch das Protokoll festgelegtes Layout."
+
+msgid "The preview shows the page data that a posting app can include in an external Bluesky embed; only the generated embed is authoritative."
+msgstr "Die Vorschau zeigt die Seitendaten, die eine veröffentlichende App in ein externes Bluesky-Embed übernehmen kann; verbindlich ist erst das erzeugte Embed."
+
+msgid "This view approximates a Mastodon preview card; the instance and client may render it differently."
+msgstr "Diese Ansicht nähert eine Mastodon-Vorschaukarte an; Instanz und Client können sie abweichend darstellen."
+
+msgid "This view is a local approximation. Platforms may change rendering, cropping, and text truncation depending on the client or context."
+msgstr "Diese Ansicht ist eine lokale Näherung. Plattformen können Darstellung, Beschnitt und Textkürzung abhängig vom Client oder Kontext verändern."
