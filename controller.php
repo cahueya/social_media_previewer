@@ -12,7 +12,7 @@ class Controller extends Package
 {
     protected $pkgHandle = 'social_media_previewer';
     protected $appVersionRequired = '9.0.0';
-    protected $pkgVersion = '1.4.0';
+    protected $pkgVersion = '1.5.0';
 
     public function getPackageName()
     {

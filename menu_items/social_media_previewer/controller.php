@@ -14,19 +14,31 @@ class Controller extends MenuItemController
     {
         $page = Page::getCurrentPage();
 
-        return $page && !$page->isError();
+        return $this->isPreviewablePage($page);
     }
 
     public function registerViewAssets()
     {
+        $page = Page::getCurrentPage();
+        if (!$this->isPreviewablePage($page)) {
+            return;
+        }
+
         $view = PageView::getInstance();
         $view->requireAsset('css', 'social-media-previewer');
         $view->requireAsset('javascript', 'social-media-previewer');
+        $view->addFooterItem($this->buildPageSeed($page));
+    }
 
-        $page = Page::getCurrentPage();
-        if ($page && !$page->isError()) {
-            $view->addFooterItem($this->buildPageSeed($page));
+    private function isPreviewablePage($page): bool
+    {
+        if (!$page || $page->isError()) {
+            return false;
         }
+
+        $path = (string) $page->getCollectionPath();
+
+        return $path !== '/dashboard' && strpos($path, '/dashboard/') !== 0;
     }
 
     private function buildPageSeed($page): string

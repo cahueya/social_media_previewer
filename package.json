@@ -1,8 +1,33 @@
 {
-  "name": "concretecms-social-media-previewer",
-  "private": true,
-  "scripts": {
-    "test": "node --test tests/*.test.js",
-    "lint:js": "node --check js/social-media-previewer.js"
-  }
+    "name": "cahueya/social_media_previewer",
+    "description": "A concreteCMS package to preview a pages look on social media plattforms",
+    "type": "concrete5-package",
+    "keywords": [
+        "concretecms",
+        "concrete",
+        "cms",
+        "concrete5",
+        "package",
+        "addon",
+        "socialmedia",
+        "preview"
+    ],
+    "homepage": "https://github.com/cahueya/social_media_previewer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cahueya",
+            "email": "info@cahueya.com",
+            "role": "maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/cahueya/social_media_previewer/issues",
+        "source": "https://github.com/cahueya/social_media_previewer"
+    },
+    "require": {
+        "php": ">=8.1",
+        "concrete5/core": "^9"
+    
+    }
 }
